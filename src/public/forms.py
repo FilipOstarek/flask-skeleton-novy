@@ -52,3 +52,4 @@ class ocform(Form):
     obrazec = SelectField("Obrazec", choices=[(1, "Ctverec A"),\
                                               (2, "Obdelnik B"),\
                                               (3, "Trojuhelnuik ABC")], default=1)
+
